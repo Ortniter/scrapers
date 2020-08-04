@@ -10,6 +10,7 @@ class BaseParser:
         self.raw_html = None
         self.bulk_data = list()
         self.is_active = False
+        
 
     def work(self):
         self.is_active = True
